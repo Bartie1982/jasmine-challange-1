@@ -1,4 +1,4 @@
-whatCanIDrink = function(age) {
+whatCanIDrink = function(number) {
 
     if (number < 0 ) {
         return "Sorry. I can’t tell what drink because that age is incorrect!";
@@ -13,7 +13,7 @@ whatCanIDrink = function(age) {
         return "Drink Beer";
     } 
     else if (number >= 21 && number < 130 ) {
-        return "Drink Whiskey";
+        return "Drink Whisky";
     } else { 
         return "Sorry. I can’t tell what drink because that age is incorrect!";
     }     
